@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminCategories">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/return_button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:translationX="10dp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="209dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="44dp"
+            android:text="@string/manage_categories_button"
+            android:textSize="24sp"
+            android:translationX="90dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="68dp" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/new_category_name"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:hint="Name"
+            android:translationX="30dp"
+            app:layout_constraintBottom_toTopOf="@+id/new_category_description"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView4"
+            app:layout_constraintVertical_bias="0.844" />
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/new_category_description"
+            android:layout_width="328dp"
+            android:layout_height="52dp"
+            android:hint="Description"
+            android:translationX="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.506"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="180dp" />
+
+        <Button
+            android:id="@+id/admin_add_button"
+            android:layout_width="161dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="28dp"
+            android:text="Add Category"
+            android:translationX="120dp"
+            app:layout_constraintTop_toBottomOf="@+id/new_category_description"
+            tools:layout_editor_absoluteX="125dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="43dp" />
+
+        <Spinner
+            android:id="@+id/admin_spinner"
+            android:layout_width="354dp"
+            android:layout_height="37dp"
+            android:translationX="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="365dp" />
+
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_category_name"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:hint="Edit Name"
+            android:visibility="gone" /> <!-- Initially hidden -->
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/edit_category_description"
+            android:layout_width="327dp"
+            android:layout_height="51dp"
+            android:hint="Edit Description"
+            android:visibility="gone" /> <!-- Initially hidden -->
+
+
+        <Button
+            android:id="@+id/admin_edit_button"
+            android:layout_width="161dp"
+            android:layout_height="46dp"
+            android:text="Edit Category"
+            android:translationX="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="402dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="23dp" />
+
+        <Spinner
+            android:id="@+id/admin_spinner2"
+            android:layout_width="354dp"
+            android:layout_height="37dp"
+            android:translationX="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="515dp" />
+
+        <Button
+            android:id="@+id/admin_delete_button"
+            android:layout_width="161dp"
+            android:layout_height="46dp"
+            android:text="Delete Category"
+            android:translationX="120dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:layout_editor_absoluteY="552dp" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="48dp" />
+
+        <Button
+            android:id="@+id/go_to_item_button"
+            android:translationX="95dp"
+            android:layout_width="210dp"
+            android:layout_height="wrap_content"
+            android:text="Manage Items" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

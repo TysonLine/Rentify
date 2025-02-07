@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Rentify</string>
+    <string name="log_in">Log In</string>
+    <string name="username_input">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="app_title">Rentify</string>
+    <string name="login_error_string"> value </string>
+    <string name="user_role">User Role:</string>
+    <string name="create_account_page_button">Create New Account</string>
+    <string name="confirm_pw_hint">Confirm Password</string>
+    <string-array name="account_types">
+        <item>Normal account</item>
+        <item>Renter account</item>
+    </string-array>
+    <string name="account_type">Welcome:  </string>
+    <string name="welcome_admin">Admin Controls</string>
+    <string name="delete_account">Delete an account</string>
+    <string name="delete_account_button">Delete Account</string>
+    <string name="disable_account_button">Disable Account</string>
+    <string name="disable_account_textView">Disable Account</string>
+    <string name="manage_categories_button">Manage Categories</string>
+    <string name="go_to_rentItems">Rent Items</string>
+    <string name="lessor_button">Lease Item</string>
+    <string name="rent_button">Rent Item</string>
+
+
+</resources>

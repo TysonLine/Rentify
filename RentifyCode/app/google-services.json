@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "156839782092",
+    "firebase_url": "https://seg-9c608-default-rtdb.firebaseio.com",
+    "project_id": "seg-9c608",
+    "storage_bucket": "seg-9c608.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:156839782092:android:83b2ee8e93119a74818469",
+        "android_client_info": {
+          "package_name": "com.SEG.rentify"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBNnedoj5iuQdvs1myv2yWRGscBQfbrK-c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
